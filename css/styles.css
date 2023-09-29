@@ -129,15 +129,9 @@ button {
     background-size: cover;
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),
      rgba(46, 47, 66, 0.7)), url('../images/peopleOffice.jpg');
-    
-   
-    
-    
+    max-width: 1440px;      
 }
     
-
-
-
 .hero-title {
     color: #fff;
     font-family: Roboto;
