@@ -202,12 +202,14 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;   
+    margin-bottom: 8px;
+    margin: 0;   
 }
 
 .text-benefits {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 
 .our-team {
@@ -228,9 +230,11 @@ button {
 }
 
 .team {
+  margin: 0;
   margin-bottom: 72px;
   text-align: center;
   font-size: 36px;
+  font-style: normal;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -277,10 +281,12 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:  #2e2f42;
+    margin: 0;
     margin-bottom: 8px;
 }
 
 .work-position {
+    margin: 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -316,7 +322,7 @@ button {
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em; /* em, rem */ /* let.spa./ font-size */
     text-transform: uppercase;
-    color:#4D5AE5;
+    color: var(--IRIS, #4D5AE5);
 }
 
 .text-footer {
@@ -324,6 +330,7 @@ button {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin: 0;
 }
     
 
