@@ -14,9 +14,6 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
    margin: 0; 
 }
@@ -230,7 +227,6 @@ button {
 }
 
 .team {
-  margin: 0;
   margin-bottom: 72px;
   text-align: center;
   font-size: 36px;
