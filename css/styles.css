@@ -270,11 +270,12 @@ button {
     align-items: center;
     justify-content: center;
     display: flex;
+    background-color: #4d5ae5;
 }
 
 .social-links:hover,
 .social-links:focus {
-     background-color: #404bbf;
+     background-color:#404bbf;
 }
 
 
