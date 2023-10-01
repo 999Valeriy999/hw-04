@@ -250,8 +250,7 @@ button {
    justify-content: center;
    align-items: center;
    gap: 24px;
-   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
-   0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+   
 }
 
 .social-item {
@@ -259,7 +258,7 @@ button {
     width: 40px;
     height: 40px;
     fill: #4D5AE5; 
-    
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     
 }
 
