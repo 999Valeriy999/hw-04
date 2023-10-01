@@ -41,8 +41,7 @@ button {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
-       
+    padding: 0 15px 0 15px;     
 }
 
 .contain {
@@ -157,7 +156,6 @@ button {
    border: none;
    display: block;
    margin: 0 auto;
- 
 }
 
 .button:hover {
@@ -237,6 +235,19 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.social-links {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+}
+
+.social-item {
+    width: 40px;
+    height: 40px;
+    fill: #4D5AE5; 
 }
 
 .name {
