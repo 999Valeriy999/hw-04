@@ -237,7 +237,7 @@ button {
   text-transform: capitalize;
 }
 
-.social-links {
+.social-list {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -250,6 +250,21 @@ button {
     height: 40px;
     fill: #4D5AE5; 
 }
+
+.social-links {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links:hover,
+.social-links:focus {
+     background-color: #404bbf;
+}
+
 
 .name {
     padding-top: 32px;
