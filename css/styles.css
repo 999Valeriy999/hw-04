@@ -245,6 +245,7 @@ button {
 }
 
 .social-item {
+    display: flex;
     width: 40px;
     height: 40px;
     fill: #4D5AE5; 
