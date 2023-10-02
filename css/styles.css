@@ -48,7 +48,7 @@ button {
 .contain {
     display: flex;
     align-items: center;
-    margin-right: 120px;
+    
 }
 
 .logo {
@@ -413,4 +413,6 @@ button {
 .foot-social-links:focus {
     background-color: #31D0AA;
 }
-
+.flex {
+   display: flex; 
+}
