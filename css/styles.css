@@ -365,7 +365,7 @@ button {
 }
 .social-foot {
     align-items: baseline;
-    margin-right: 120px;
+    
     
 }
 
@@ -411,7 +411,10 @@ button {
     background-color: #31D0AA;
 }
 
+.left-blok {
+    margin-right: 120px; 
 
+}
    
     
 
