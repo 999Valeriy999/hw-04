@@ -48,6 +48,7 @@ button {
 .contain {
     display: flex;
     align-items: center;
+    margin-right: 120px;
 }
 
 .logo {
@@ -338,7 +339,7 @@ button {
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
-    align-items: baseline;
+    
 }
 
 .footer-logo {
