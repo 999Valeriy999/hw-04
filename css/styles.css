@@ -2,6 +2,7 @@
   --c-primary:#434455;
   --c-background-light: #D9D9D9;
   --c-background:#FFFFFF;
+  --color-green: #31D0AA;
 } 
     /* Base */
 body {
@@ -356,23 +357,58 @@ button {
 }
 
 .text-footer {
+    font-weight: 400;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
     margin: 0;
 }
-    
 
+.foot-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.foot-links {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-white);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.foot-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-iris);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
  
-   
+.footer-social-link:hover, 
+.footer-social-link:focus {
+    background-color: var(--color-green);
+}
 
-
-
-
-
-
-
-
-
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
