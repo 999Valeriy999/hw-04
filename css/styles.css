@@ -365,7 +365,7 @@ button {
 .social-foot {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+    
     
 }
 
@@ -409,6 +409,9 @@ button {
 .foot-social-links:hover, 
 .foot-social-links:focus {
     background-color: #31D0AA;
+}
+.left-block{
+    margin-right: 120px; 
 }
    
     
