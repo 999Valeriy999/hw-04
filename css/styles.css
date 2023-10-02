@@ -414,5 +414,7 @@ button {
     background-color: #31D0AA;
 }
 .flex {
-   display: flex; 
+   display: flex;
+   align-items: baseline;
+   margin-right: 120px; 
 }
