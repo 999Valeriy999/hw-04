@@ -367,7 +367,9 @@ button {
 .social-foot {
     display: flex;
     align-items: baseline;
-    margin-right: 120px
+    margin-right: 120px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .foot-social-link {
@@ -380,8 +382,7 @@ button {
 .foot-social {
     width: 40px;
     height: 40px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .foot-links {
@@ -405,8 +406,8 @@ button {
    
 }
  
-.footer-social-link:hover, 
-.footer-social-link:focus {
+.foot-social-links:hover, 
+.foot-social-links:focus {
     background-color: #31D0AA;
 }
 
