@@ -364,6 +364,11 @@ button {
     max-width: 264px;
     margin: 0;
 }
+.social-foot {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px
+}
 
 .foot-social-link {
     display: flex;
@@ -376,7 +381,7 @@ button {
 .foot-links {
     font-size: 16px;
     font-weight: 500;
-    color: var(--color-white);
+    color:#FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
@@ -386,7 +391,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-iris);
+    background-color:#4D5AE5 ;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -397,18 +402,6 @@ button {
  
 .footer-social-link:hover, 
 .footer-social-link:focus {
-    background-color: var(--color-green);
+    background-color: #31D0AA;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
