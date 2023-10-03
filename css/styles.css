@@ -352,6 +352,9 @@ background-color:  #F4F4FD;
 position: relative;
 overflow: hidden;}
 
+.photo-portfolio:hover .overlay {
+  transform: translateY(0);}
+
 .list-team {
   display: flex;
   gap: 24px;
